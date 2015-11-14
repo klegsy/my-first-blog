@@ -14,8 +14,6 @@
     <div class="page-header">
         {% if user.is_authenticated %}
             <a href="{% url "post_new" %}" class="top-menu">New Post<span class ="glyphicon glyphicon-plus"></span></a>
-        {% comment %}{% else %}
-            <a href="{% url 'django.contrib.auth.views.login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>{% endcomment %}
         {% endif %}
         <h1><a href="/">2 Years and Counting</a></h1>
     </div>
