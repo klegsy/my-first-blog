@@ -26,8 +26,8 @@
     }
 
     .date {
-        float: right;
         color: #828282;
+        font-size: 10px;
     }
 
     .save {
@@ -48,10 +48,6 @@
     .post {
         font-size: 12pt;
         margin-bottom: 30px;
-    }
-
-    .date {
-        font-size: 10px;
     }
 
     .body h1{
